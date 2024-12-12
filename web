@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beşiktaş JK Tarihçesi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #ffffff, #ffd6e7);
+            margin: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #000;
+        }
+        .red-text {
+            color: #e60000;
+            font-size: 20px;
+        }
+        .highlight {
+            background-color: rgb(255, 229, 204);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .hex-color {
+            color: #ff5733;
+            font-weight: bold;
+        }
+        blockquote {
+            font-style: italic;
+            background-color: #f2f2f2;
+            padding: 10px 20px;
+            border-left: 5px solid #ccc;
+            margin: 20px 0;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        table th {
+            background-color: #007acc;
+            color: white;
+        }
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bölüm 1: HTML Temel Yapısı -->
+    <h1>Beşiktaş JK Tarihçesi</h1>
+
+    <!-- Bölüm 2: HTML Başlıklar ve Paragraflar -->
+    <h2>Başlıklar</h2>
+    <h1>Beşiktaş'ın Kuruluşu</h1>
+    <h2>İlk Yıllar</h2>
+    <h3>Süper Lig Başarıları</h3>
+    <h4>Avrupa'daki Başarılar</h4>
+    <h5>Stadyum ve Taraftarlar</h5>
+    <h6>Gelecek Planları</h6>
+
+    <h2>Paragraflar</h2>
+    <p>Beşiktaş Jimnastik Kulübü, 1903 yılında İstanbul'un Beşiktaş semtinde kurulmuştur. Türkiye'nin en köklü spor kulüplerinden biridir.</p>
+    <p class="red-text">Beşiktaş, Türk futboluna kazandırdığı başarılarla adını altın harflerle yazdırmıştır.</p>
+
+    <p>
+        <b>Beşiktaş'ın renkleri siyah ve beyazdır,</b> 
+        <i>bu renkler Osmanlı İmparatorluğu'nun yasını temsil eder.</i> 
+        <u>Kulübün sembolü ise bir kartaldır.</u>
+    </p>
+
+    <!-- Bölüm 4: HTML Alıntılar ve Öne Çıkarılan Metinler -->
+    <h2>Alıntılar ve Öne Çıkarılan Metinler</h2>
+    <blockquote>
+        "Herkesin bir takımı vardır, bizim ise bir aşkımız." - Beşiktaş Taraftarları
+    </blockquote>
+    <p>Beşiktaş için <mark>"Kara Kartal"</mark> unvanı kullanılmaktadır.</p>
+
+    <!-- Bölüm 5: HTML Renkler ve CSS -->
+    <h2 style="color: #00509e;">Renklerle Çalışma</h2>
+    <p class="highlight">Beşiktaş'ın başarıları, taraftarlarının sevgisiyle taçlanmıştır.</p>
+    <p class="hex-color">Beşiktaş'ın sembolü olan kartal, cesareti temsil eder.</p>
+
+    <!-- Bölüm 6: HTML Bağlantılar -->
+    <h2>Bağlantılar</h2>
+    <p><a href="https://bjk.com.tr" target="_blank">Beşiktaş Resmi Web Sitesine Git</a></p>
+    <p><a href="#liste">Tarihi Başarıları Gör</a></p>
+
+    <!-- Ekstra Puan: Liste -->
+    <h2 id="liste">Tarihi Başarılar</h2>
+    <ul>
+        <li>1903: Kulübün Kuruluşu</li>
+        <li>1957: İlk Lig Şampiyonluğu</li>
+        <li>1989: 103 Gollü Şampiyonluk</li>
+        <li>2017: Üst Üste İki Lig Şampiyonluğu</li>
+    </ul>
+
+    <!-- Ekstra Puan: Tablo -->
+    <h2>Başarılar Tablosu</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Yıl</th>
+                <th>Başarı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1903</td>
+                <td>Beşiktaş Jimnastik Kulübü'nün kuruluşu</td>
+            </tr>
+            <tr>
+                <td>1989</td>
+                <td>103 Gollü Şampiyonluk</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>Üst üste iki Süper Lig Şampiyonluğu</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
