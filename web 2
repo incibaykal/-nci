@@ -3,164 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beşiktaş JK Tarihçesi</title>
+    <title>Barbie'nin İlham Verici Dünyası</title>
     <style>
+        /* Genel Stil */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #ffd6e7;
-            margin: 20px;
+            background: linear-gradient(to bottom, #ffe4e1, #ffc0cb);
             color: #333;
+            font-family: 'Poppins', Arial, sans-serif;
+            padding: 20px;
         }
-        h1, h2 {
+        header {
             text-align: center;
-            color: #000;
+            padding: 40px 20px;
+            background: linear-gradient(to right, #ff69b4, #ff1493);
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
         }
-        .red-text {
-            color: #e60000;
-            font-size: 20px;
-        }
-        .highlight {
-            background-color: rgb(255, 229, 204);
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .hex-color {
-            color: #ff5733;
+        header h1 {
+            font-size: 3em;
             font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
         }
-        blockquote {
-            font-style: italic;
-            background-color: #f2f2f2;
-            padding: 10px 20px;
-            border-left: 5px solid #ccc;
-            margin: 20px 0;
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
         }
         a {
-            color: #007acc;
+            color: #ff69b4;
+            font-weight: bold;
             text-decoration: none;
+            transition: color 0.3s ease;
         }
         a:hover {
+            color: #d94f8a;
+        }
+        .description {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 30px 0;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            line-height: 1.8;
+        }
+        .description h1 {
+            color: #ff69b4;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .description h2 {
+            color: #ff1493;
+            margin-top: 20px;
+            font-size: 2em;
+        }
+        .description p {
+            font-size: 1.2em;
+            margin: 15px 0;
+        }
+        .highlight {
+            color: #ff69b4;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .underline {
             text-decoration: underline;
         }
-        ul {
-            list-style-type: square;
-            margin-left: 20px;
+        .movies ul {
+            margin: 20px 0;
+            padding: 0;
+            list-style: none;
+        }
+        .movies li {
+            background: #ffe4e1;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
         }
         table th, table td {
+            padding: 15px;
+            text-align: center;
             border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
         }
         table th {
-            background-color: #007acc;
+            background: #ff1493;
             color: white;
+            font-weight: bold;
         }
         table tr:nth-child(even) {
-            background-color: #f9f9f9;
+            background: #ffe4e1;
         }
-        .image-container {
+        footer {
             text-align: center;
-            margin: 20px 0;
-        }
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+            padding: 20px;
+            background: #ff1493;
+            color: white;
+            border-radius: 12px;
         }
     </style>
 </head>
 <body>
-    <!-- Bölüm 1: HTML Temel Yapısı -->
-    <h1>Beşiktaş JK Tarihçesi</h1>
-
-    <div class="image-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Besiktas_JK_logo.png" alt="Beşiktaş Logosu">
-    </div>
-
-    <div class="image-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Vodafone_Park_%28cropped%29.jpg" alt="Vodafone Park Stadyumu">
-    </div>
-
-    <div class="image-container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Besiktas_fans_2016.jpg" alt="Beşiktaş Taraftarları">
-    </div>
-
-    <!-- Bölüm 2: HTML Başlıklar ve Paragraflar -->
-    <h2>Başlıklar</h2>
-    <h1>Beşiktaş'ın Kuruluşu</h1>
-    <h2>İlk Yıllar</h2>
-    <h3>Süper Lig Başarıları</h3>
-    <h4>Avrupa'daki Başarılar</h4>
-    <h5>Stadyum ve Taraftarlar</h5>
-    <h6>Gelecek Planları</h6>
-
-    <h2>Paragraflar</h2>
-    <p>Beşiktaş Jimnastik Kulübü, 1903 yılında İstanbul'un Beşiktaş semtinde kurulmuştur. Türkiye'nin en köklü spor kulüplerinden biridir.</p>
-    <p class="red-text">Beşiktaş, Türk futboluna kazandırdığı başarılarla adını altın harflerle yazdırmıştır.</p>
-
-    <p>
-        <b>Beşiktaş'ın renkleri siyah ve beyazdır,</b> 
-        <i>bu renkler Osmanlı İmparatorluğu'nun yasını temsil eder.</i> 
-        <u>Kulübün sembolü ise bir kartaldır.</u>
-    </p>
-
-    <!-- Bölüm 4: HTML Alıntılar ve Öne Çıkarılan Metinler -->
-    <h2>Alıntılar ve Öne Çıkarılan Metinler</h2>
-    <blockquote>
-        "Herkesin bir takımı vardır, bizim ise bir aşkımız." - Beşiktaş Taraftarları
-    </blockquote>
-    <p>Beşiktaş için <mark>"Kara Kartal"</mark> unvanı kullanılmaktadır.</p>
-
-    <!-- Bölüm 5: HTML Renkler ve CSS -->
-    <h2 style="color: #00509e;">Renklerle Çalışma</h2>
-    <p class="highlight">Beşiktaş'ın başarıları, taraftarlarının sevgisiyle taçlanmıştır.</p>
-    <p class="hex-color">Beşiktaş'ın sembolü olan kartal, cesareti temsil eder.</p>
-
-    <!-- Bölüm 6: HTML Bağlantılar -->
-    <h2>Bağlantılar</h2>
-    <p><a href="https://bjk.com.tr" target="_blank">Beşiktaş Resmi Web Sitesine Git</a></p>
-    <p><a href="#liste">Tarihi Başarıları Gör</a></p>
-
-    <!-- Ekstra Puan: Liste -->
-    <h2 id="liste">Tarihi Başarılar</h2>
-    <ul>
-        <li>1903: Kulübün Kuruluşu</li>
-        <li>1957: İlk Lig Şampiyonluğu</li>
-        <li>1989: 103 Gollü Şampiyonluk</li>
-        <li>2017: Üst Üste İki Lig Şampiyonluğu</li>
-    </ul>
-
-    <!-- Ekstra Puan: Tablo -->
-    <h2>Başarılar Tablosu</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Yıl</th>
-                <th>Başarı</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1903</td>
-                <td>Beşiktaş Jimnastik Kulübü'nün kuruluşu</td>
-            </tr>
-            <tr>
-                <td>1989</td>
-                <td>103 Gollü Şampiyonluk</td>
-            </tr>
-            <tr>
-                <td>2017</td>
-                <td>Üst üste iki Süper Lig Şampiyonluğu</td>
-            </tr>
-        </tbody>
-    </table>
+    <header>
+        <h1>Barbie'nin İlham Verici Dünyası</h1>
+        <p><a href="#movies">Barbie Filmleri Bölümüne Git</a></p>
+    </header>
+    <section class="description">
+        <h1>Barbie'nin İlham Verici Dünyası</h1>
+        <p>Barbie'nin hikayesi, 1959'da yaratıldığı ilk günden bu yana, her yaştan insana <span class="highlight">ilham veren bir yolculuktur</span>. Modadan sanata, bilimden hayallere kadar geniş bir yelpazede etkileyici bir mirasa sahiptir.</p>
+        <h2>Barbie'nin İlk Yılları</h2>
+        <p>Barbie, ilk defa <span class="highlight">9 Mart 1959</span>'da New York Oyuncak Fuarı'nda tanıtıldı. O zamandan beri, dünya çapında bir ikon haline geldi.</p>
+        <h2>Modadaki Rolü</h2>
+        <p>Barbie, her dönemin modasını yansıtarak milyonlarca insana ilham kaynağı oldu. Zarif elbiselerden rahat günlük kıyafetlere kadar, her türlü tarzda örnek teşkil etti. <span class="highlight underline">Bu miras, modanın geleceğine de yön veriyor.</span></p>
+        <h2>Barbie'nin Çeşitliliği</h2>
+        <p>Barbie, farklı ten renkleri, vücut tipleri ve meslekleri ile tüm dünyaya kapsayıcılığı teşvik etmektedir.</p>
+        <h2>Sanattaki Yeri</h2>
+        <p>Barbie, pek çok sanatçı ve tasarımcı için bir ilham kaynağı olmuştur. Sergilerde ve özel koleksiyonlarda kendine yer bulmuştur.</p>
+        <h2>Geleceğe Bakış</h2>
+        <p>Barbie, sadece geçmişiyle değil, aynı zamanda yenilikçi projeleri ve sürdürülebilirlik girişimleriyle geleceğe de ışık tutmaktadır.</p>
+    </section>
+    <section id="movies" class="description movies">
+        <h2>Barbie Filmleri</h2>
+        <p>Barbie, hem çocuklar hem de yetişkinler için büyüleyici hikayelerle dolu çok sayıda filme sahiptir. En popüler filmlerden bazıları:</p>
+        <ul>
+            <li><strong>Barbie ve Kuğu Gölü:</strong> Klasik bir baleden ilham alan büyüleyici bir hikaye.</li>
+            <li><strong>Barbie: Prenses ve Fakir:</strong> İki farklı dünyanın insanları arasında geçen dostluk hikayesi.</li>
+            <li><strong>Barbie: Denizkızı Masalı:</strong> Deniz altı maceralarını konu alan renkli bir yolculuk.</li>
+            <li><strong>Barbie ve Sihirli Dünyası:</strong> Hayal gücünü harekete geçiren fantastik bir öykü.</li>
+        </ul>
+    </section>
+    <section class="description">
+        <h2>Barbie Koleksiyonları</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Koleksiyon Adı</th>
+                    <th>Çıkış Yılı</th>
+                    <th>Açıklama</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Retro Barbie</td>
+                    <td>1960</td>
+                    <td>Klasik tasarımlar ve nostaljik moda.</td>
+                </tr>
+                <tr>
+                    <td>Modern Barbie</td>
+                    <td>2000</td>
+                    <td>Günümüzün trendlerini yansıtan stil.</td>
+                </tr>
+                <tr>
+                    <td>Bilim Kadını Barbie</td>
+                    <td>2015</td>
+                    <td>Bilime ilham veren profesyonel temalar.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: center; margin-top: 20px;">
+            Daha fazla bilgi için <a href="https://barbie.mattel.com" target="_blank">Barbie Resmi Sitesi</a>'ni ziyaret edin.
+        </p>
+    </section>
+    <footer>
+        &copy; 2024 Barbie Dünyası. Hayallerinizi gerçekleştirin!
+    </footer>
 </body>
 </html>
